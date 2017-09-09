@@ -8,7 +8,7 @@ var img=document.getElementById('my buddy');
 var marginLeft = 0;
 function moveRight() {
     marginLeft = marginLeft + 10;
-    imag.style.marginLeft + "px";
+    imag.style.marginLeft + 'px';
 }
 img.onclick = function() {
     var interval = setInterval(moveRight,100);
