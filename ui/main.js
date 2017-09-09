@@ -5,7 +5,10 @@ element.innerHTML='new value';
 
 //move the picture
 var img=document.getElementById('my buddy');
+function moveRight() {
+    marginLeft = marginLeft + 10;
+    imag.style.marginLeft + "px";
+}
 img.onclick = function() {
-    var interval = setInterval(moveleft,100);
-    img.style.marginleft='100px';
+    var interval = setInterval(moveRight,100);
 };
