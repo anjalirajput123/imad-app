@@ -7,9 +7,9 @@ element.innerHTML='new value';
 var img=document.getElementById('my buddy');
 var marginLeft = 0;
 function moveRight() {
-    marginLeft = marginLeft + 10;
+    marginLeft = marginLeft + 1;
     imag.style.marginLeft + 'px';
 }
 img.onclick = function() {
-    var interval = setInterval(moveRight,100);
+    var interval = setInterval(moveRight,50);
 };
