@@ -5,7 +5,7 @@ element.innerHTML='new value';
 
 //move the picture
 var img=document.getElementById('my buddy');
-var marginLeft = 0;
+var marginRight= 0;
 function moveRight() {
     marginLeft = marginLeft + 1;
     imag.style.marginLeft + 'px';
