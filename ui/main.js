@@ -1,6 +1,6 @@
 //button code
 var button=document.getElementById("counter");
-//var counter=0;
+var counter=0;
 button.onclick= function(){
     //create the object
     var Request =new XMLHttpRequest();
@@ -14,9 +14,9 @@ button.onclick= function(){
         }
     }
     //render the variable in the correct span
-   // counter = counter +1;
-   // var counter=document.getElementById("count");
-   // span.innerHTML =counter.toString();
+    counter = counter +1;
+    var counter=document.getElementById("count");
+    span.innerHTML =counter.toString();
    
    //make the request
    request.open("GET","http://anjalirajput4629596.imad.hasura-app.io/counter", true );
